@@ -7,4 +7,3 @@ COPY httpd.conf /usr/local/apache2/conf/httpd.conf
 COPY dist /usr/local/apache2/htdocs/dist
 COPY favicon.png /usr/local/apache2/htdocs/dist/
 COPY index.html /usr/local/apache2/htdocs/
-EXPOSE 80 443
