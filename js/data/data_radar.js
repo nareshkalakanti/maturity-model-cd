@@ -94,7 +94,7 @@ define(function() {
     ID_AVERAGE_CATEGORIES = 100;
 
     /* User-level variables */
-    pageTitle = "CD Maturity Gap Analysis: First Federated Bank";
+    pageTitle = "CD Maturity Gap Analysis: Bank Of Ireland";
     legendTitle = "Banking Platforms";
     averageTitle = "Average Maturity - All Systems";
     referenceLink1 = "https://github.com/garystafford/cd-maturity-model";
