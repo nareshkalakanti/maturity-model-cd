@@ -7,3 +7,4 @@ COPY dist /usr/local/apache2/htdocs/dist
 COPY favicon.png /usr/local/apache2/htdocs/dist/
 COPY index.html /usr/local/apache2/htdocs/
 COPY httpd.conf /usr/local/apache2/conf/httpd.conf
+RUN chown -R www-data:www-data /usr/local/apache2/htdocs/
